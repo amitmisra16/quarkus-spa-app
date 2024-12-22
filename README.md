@@ -65,3 +65,6 @@ Quinoa codestart added a tiny Vite app in src/main/webui. The page is configured
 
 [Related guide section...](https://quarkiverse.github.io/quarkiverse-docs/quarkus-quinoa/dev/index.html)
 
+### REST API
+
+Using the `io.quarkus:quarkus-rest` extension, the required dependencies for created REST APIs were enabled. A REST endpoint `/count` is added and accordingly the code under `App.jsx` is updated to call this endpoint for retrieving the button click count which is maintained in a static variable on server side.
