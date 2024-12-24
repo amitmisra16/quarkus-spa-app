@@ -1,0 +1,1 @@
+insert into Counter (id, counter, lastUpdated) values (1, 0, current_timestamp);
